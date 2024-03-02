@@ -1,0 +1,25 @@
+#center-form {
+    
+    height:auto;
+    width: 20%;
+    margin: auto;
+    padding-top: 5%;
+    background-color:transparent;
+}
+
+.button {
+    margin-left: 20%;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: 
+        linear-gradient(#d8a20d 0%, #F2541B 13%, #C91853 26%, #A8186E 39%, #6A0487 50%, #A8186E 61%, #C91853 74%, #F2541B 87%,#d8a20d 100%) 
+        0 0/100% 200%;
+        animation: a 2s linear infinite;
+}
+
+@keyframes a {
+    to {background-position:0 -200%}
+}

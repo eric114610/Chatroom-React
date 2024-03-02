@@ -1,0 +1,16 @@
+@keyframes changeColor {
+    0% {color: red;}
+    14.2% {color: orange;}
+    28.57% {color: yellow;}
+    42.8% {color: greenyellow;}
+    57.14% {color: blue;}
+    71.4% {color: indigo;}
+    85.7% {color: purple;}
+    100% {color: red;}
+}
+
+#Header {
+    animation-name: changeColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
